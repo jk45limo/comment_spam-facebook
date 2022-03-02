@@ -2,7 +2,7 @@ import requests
 import json 
  
 #Insert facebook token here 
-access_token = "EAANHMin5uKQBANdJpOiTcerZC8RZBFpZCc29eeiGjZAWZB6ZBk0UEyJE2aeo3jtcdkZAkx8DwXs2yHQ9u3sE5V0tgENKC1voJns7GE7AZBhCerLmZCjGvmUyvGwtagYsToshhut8XHwCWpSgv1yKkZC0ff1BmfE0lzDNeFrJUJkqUoPwpQqTh3HAFP" 
+access_token = "" 
  
 def comment_on_posts(posts, amount): 
     counter = 0 
