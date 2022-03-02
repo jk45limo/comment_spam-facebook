@@ -3,7 +3,7 @@ import fb                     #To install this package run: sudo pip install fb
 from facepy import GraphAPI   #To install this package run: sudo pip install facepy
 
 def spam():
-    token = "EAANHMin5uKQBAFXrFuIexMOr1oJfZB6w0N3N2uqm1s15gRwXwrbQZCb6YYtZAHWOyHjXQbJyOTAM4F9RscfZCczvX64Cm9gcFwpVLKEEOKCPpQijT3VJCjBnpi3ZCzbiqw8dND9gFYy4M4JYSoQDY7IbSUKa1rV3BTS1TzFxPJxIsq8PpGGsHwePIvjor2zxBtbxa5nwg5AZDZD" #Insert access token here.  
+    token = "" #Insert access token here.  
     facebook = fb.graph.api(token)
     graph1 = GraphAPI(token)
     
